@@ -1,5 +1,7 @@
 // mode 1 is the start screen
 // mode 2 is the about page
+// I made changes!
+
 // mode 3 is the actual work itself
 int mode = 1;
 // 0 is false;
