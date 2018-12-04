@@ -40,6 +40,10 @@ void setup() {
   w = width+30;
   dx = (TWO_PI / period) * xspacing;
   yvalues = new float[w/xspacing];
+  
+  // Load a soundfile
+  soundfile = new SoundFile(this, "rain.aiff");
+  
   // Initialize all elements of each array to zero.
   for (int i = 0; i < cloudList.length; i ++ ) {
     // The Cloud class takes in a color, a x position, a y position, and a speed)
@@ -285,8 +289,7 @@ void mousePressed() {
   Cloud oneMore = new Cloud(color(mouseX*20 % 100, mouseX*20 % 100, mouseX*20 % 204), mouseX, mouseY, 1);
   // Make a new object at the mouse location.
   cloudList = (Cloud[]) append(cloudList, oneMore);
-  // Load a soundfile
-  soundfile = new SoundFile(this, "rain.aiff");
+  
 
   theta += theta2 + 0.02;
   theta2 = theta2+0.02;
