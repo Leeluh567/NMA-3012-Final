@@ -89,7 +89,7 @@ Because of this, I wanted to add an audio portion. I had considered it before, b
 
 Finally, I wanted a semblance of physics in my sketch, so I ended up manipulating sine waves. I changed the colors and created multiple waves to create the shoreline. I also made theta change slightly when the mouse is pressed in response to rain clouds being created.
 
-#screenshots
+# Screenshots
 
 ![Alt text](/Je_Lila_Final/screenshots/shot1.png?raw=true "Screenshot 1 Title")
 
