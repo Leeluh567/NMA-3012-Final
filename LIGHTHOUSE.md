@@ -1,4 +1,4 @@
-# NMA-3012-Final
+# NMA-3012-Final - LIGHTHOUSE
 NMA 3012 Final
 
 Final Project Documentation
